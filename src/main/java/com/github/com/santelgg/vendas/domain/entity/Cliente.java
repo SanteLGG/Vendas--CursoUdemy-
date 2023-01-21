@@ -11,7 +11,7 @@ public class Cliente {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "NOME", length = 100)
+    @Column(name = "NOME")
     private String nome;
 
     //getters and setters

@@ -11,9 +11,10 @@ public class Produto {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "DESCRICAO", length = 100)
+    @Column(name = "DESCRICAO")
     private String descricao;
 
+    @Column(name = "PRECO_UNITARIO")
     private BigDecimal precoUnit;
 
     //getters and setters
